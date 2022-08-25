@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"lession2_communicate_button\startup_stm32f407xx.o"
+"lession2_communicate_button\main.o"
+"lession2_communicate_button\stm32f4xx_it.o"
+"lession2_communicate_button\stm32f4xx_hal_msp.o"
+"lession2_communicate_button\stm32f4xx_hal_tim.o"
+"lession2_communicate_button\stm32f4xx_hal_tim_ex.o"
+"lession2_communicate_button\stm32f4xx_hal_rcc.o"
+"lession2_communicate_button\stm32f4xx_hal_rcc_ex.o"
+"lession2_communicate_button\stm32f4xx_hal_flash.o"
+"lession2_communicate_button\stm32f4xx_hal_flash_ex.o"
+"lession2_communicate_button\stm32f4xx_hal_flash_ramfunc.o"
+"lession2_communicate_button\stm32f4xx_hal_gpio.o"
+"lession2_communicate_button\stm32f4xx_hal_dma_ex.o"
+"lession2_communicate_button\stm32f4xx_hal_dma.o"
+"lession2_communicate_button\stm32f4xx_hal_pwr.o"
+"lession2_communicate_button\stm32f4xx_hal_pwr_ex.o"
+"lession2_communicate_button\stm32f4xx_hal_cortex.o"
+"lession2_communicate_button\stm32f4xx_hal.o"
+"lession2_communicate_button\stm32f4xx_hal_exti.o"
+"lession2_communicate_button\system_stm32f4xx.o"
+--strict --scatter "lession2_Communicate_Button\lession2_Communicate_Button.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "lession2_Communicate_Button.map" -o lession2_Communicate_Button\lession2_Communicate_Button.axf
