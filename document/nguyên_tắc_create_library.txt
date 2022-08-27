@@ -1,0 +1,3 @@
+
+newby: program must run good in file main.c  -->  after slipt program
+oldby: write library now

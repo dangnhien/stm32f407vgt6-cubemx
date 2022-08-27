@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"lesson3_create_library_button\startup_stm32f407xx.o"
+"lesson3_create_library_button\main.o"
+"lesson3_create_library_button\stm32f4xx_it.o"
+"lesson3_create_library_button\stm32f4xx_hal_msp.o"
+"lesson3_create_library_button\stm32f4xx_hal_tim.o"
+"lesson3_create_library_button\stm32f4xx_hal_tim_ex.o"
+"lesson3_create_library_button\stm32f4xx_hal_rcc.o"
+"lesson3_create_library_button\stm32f4xx_hal_rcc_ex.o"
+"lesson3_create_library_button\stm32f4xx_hal_flash.o"
+"lesson3_create_library_button\stm32f4xx_hal_flash_ex.o"
+"lesson3_create_library_button\stm32f4xx_hal_flash_ramfunc.o"
+"lesson3_create_library_button\stm32f4xx_hal_gpio.o"
+"lesson3_create_library_button\stm32f4xx_hal_dma_ex.o"
+"lesson3_create_library_button\stm32f4xx_hal_dma.o"
+"lesson3_create_library_button\stm32f4xx_hal_pwr.o"
+"lesson3_create_library_button\stm32f4xx_hal_pwr_ex.o"
+"lesson3_create_library_button\stm32f4xx_hal_cortex.o"
+"lesson3_create_library_button\stm32f4xx_hal.o"
+"lesson3_create_library_button\stm32f4xx_hal_exti.o"
+"lesson3_create_library_button\system_stm32f4xx.o"
+"lesson3_create_library_button\button.o"
+--strict --scatter "lesson3_create_library_button\lesson3_create_library_button.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "lesson3_create_library_button.map" -o lesson3_create_library_button\lesson3_create_library_button.axf
